@@ -1,0 +1,184 @@
+ 
+.homepage-container {
+    box-sizing: border-box;
+    background-color: var(--backColor);
+}
+
+.hero-container {
+    /* border:1px solid rgb(210, 210, 210); */
+    border-radius: 10px;
+    background-color: #805423;
+    opacity: 95%;
+    background-size:cover;
+    background-image:url(https://thumbs.dreamstime.com/b/banner-parcels-delivery-company-generative-ai-293641270.jpg);
+    margin: 50px 0;
+    height:400px;
+    background-blend-mode: darken;
+    align-items: center;
+}
+
+.hero-item {
+    font-family: 'poppins';
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-text {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.joint-text-container {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.delivery-text, .just-text {
+    font-size: 100px;
+    font-weight: 800;
+}
+.just-text {
+    color: var(--siteColor2);
+}
+.delivery-text {
+    color: var(--siteColor1);
+}
+.slogan-text {
+    font-style: italic;
+    margin-top: -10px;
+    color:#fff;
+}
+
+.tracker-button {
+    background-color: var(--siteColor1);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.tracker-button:hover {
+    background-color:#4f0094;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* SECTION CONTAINER */
+.section-container {
+    width:100%;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 28px;
+    color: var(--siteColor1);
+}
+
+.service-div {
+    margin:20px 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border:1px solid #eee;
+}
+
+.service-div h5 {
+    color:rgb(5, 86, 144);
+    margin:20px 20px 0 20px;
+}
+
+.service-div p{
+    color: rgb(98, 98, 98);
+    margin:20px;
+    text-align: justify;
+}
+
+
+/* CONTACT INFORMATION SECTION */
+.contact-section-container {
+    background-color: var(--siteColor1);
+    box-sizing: border-box;
+}
+
+.contact-section-container h2 {
+    color:var(--siteColor2);
+    margin-top: 20px;
+   
+}
+.contact-section-container div {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-section-formlayout {
+   box-sizing:border-box;
+    padding: 10px;
+}
+
+.contact-info-section span {
+    font-size: smaller;
+    display: block;
+    color:#4f0094;
+    font-weight: 600;
+}
+
+.contact-info-section p {
+    font-size: small;
+}
+
+.contact-info-section span:nth-child(3) {
+    margin-top: 20px;
+}
+.send-button {
+    background-color: var(--siteColor1);
+    color: var(--siteColor2);
+}
+
+.contact-send-button:hover {
+    transition: 0.3s;
+    scale: 1.01;
+    cursor:pointer;
+    transition: 0.3s ease-in;
+}
+
+
+/* FOOTER STYLING SECTION */
+.footer-container {
+    box-sizing: border-box;
+    background-color: var(--siteColor1);
+    padding:20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-container .footer-logo {
+    width:90px;
+}
+.footer-container .footer-text {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--siteColor2);
+}
+
+/* media query for small screens */
+
+@media screen and (max-width: 768px) {
+
+    .welcome-text {
+        font-size: 24px;
+    }
+    .delivery-text, .just-text {
+        font-size: 45px;
+    }
+    
+}

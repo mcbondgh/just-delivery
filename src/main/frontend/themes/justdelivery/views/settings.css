@@ -1,0 +1,41 @@
+.invoice-settings-layout {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form-text-field {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.form-text-field::part(input-field) {
+    height:45px;
+   
+}
+
+.logo-container {
+    display: flex;
+    margin-top: 20px;   
+}
+
+.invoice-logo {
+    width: 120px;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:760px) {
+    .invoice-settings-layout {
+        display: block;
+    }
+
+    .form-text-field  {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

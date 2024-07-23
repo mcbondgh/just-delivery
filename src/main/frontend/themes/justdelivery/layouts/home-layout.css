@@ -1,0 +1,56 @@
+
+:root {
+    --siteColor1: #33005f;
+    --siteColor2: #fdc800;
+    --backgroundColor: #EFF4FF;
+    --backColor: #f1f2f7;
+}
+
+
+.homepage-layout {
+    background-color:var(--backgroundColor);
+}
+
+.site-logo {
+    width:70px;
+}
+.site-logo:hover {
+    transition:0.3s ease;
+    opacity: 80%;
+}
+
+.flex-header-container {
+    background-color:var(--siteColor1);
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu-bar {
+    width: 100%;    
+}
+
+.nav-link {
+    background-color: transparent;
+    font-size: small;
+    
+}
+
+.login-link a, .register-link a {
+    color: #33005f;
+    
+}
+
+.register-link {
+    background-color: var(--siteColor2);
+}
+.login-link {
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}

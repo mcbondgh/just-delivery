@@ -1,0 +1,79 @@
+
+.staff-inner-page-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: var(--custom-shadow);
+}
+.staff-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin-bottom: -10px;
+}
+
+.staff-header-container h6 {
+    font-size: 15px;
+}
+
+.staff-dialog-box::part(header) {
+   background-color:rgb(240, 240, 240);
+   padding:5px;
+}
+
+.staff-dialog-box::part(footer) {
+    padding:0 25px;
+}
+
+.staff-dialog-close-button {
+    font-size: 10px;
+    padding:10px;
+}
+
+.staff-dialog-close-button:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.staff-form-layout {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.staff-dialog-header-container {
+    width:100%;
+    /* border:1px solid gray; */
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-staff-button {
+    font-size: smaller;
+    padding:10px;
+}
+
+/* STAFF DIALOG CHILDREN STYLING */
+.staff-menu-bar {
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+        
+}
+
+.staff-submit-button {
+    font-size: smaller;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.cancel-button:hover {cursor:pointer;}

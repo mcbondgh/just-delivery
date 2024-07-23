@@ -1,0 +1,13 @@
+@import "theme-editor.css";
+@import url('./layouts/main-layout.css');
+@import url('./layouts/home-layout.css');
+@import url('./views/dashboard-view.css');
+@import url('./views/checkout-form-view.css');
+@import url('./views/homepage/homepage-view.css');
+@import url('./views/package_tracker.css');
+@import url('./views/registration-view.css');
+@import url('./views/customers-view.css');
+@import url('./views/drivers.css');
+@import url('./views/staff-view.css');
+@import url('./views/orders-view.css');
+@import url('./views/settings.css');

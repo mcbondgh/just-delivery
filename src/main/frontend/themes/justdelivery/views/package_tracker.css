@@ -1,0 +1,212 @@
+:root {
+   --font: "Poppins";
+}
+
+.package-page-layout {
+    background-color: var(--backgroundColor);
+}
+
+.package-page-form-layout {
+    background-color:#fff;
+    box-sizing:border-box;
+}
+
+.package-page-header-container {
+    border-radius:5px;
+    text-align:center;
+    box-sizing: border-box;
+    padding:20px;
+    background: url("https://media.istockphoto.com/id/1907234458/video/delivery-man-driving-a-scooter-in-city-street-animation-online-fast-delivery-service-concept.jpg?s=640x640&k=20&c=ZsTAF6IMrBDd4wdIBKeYSObuh0xK8cqgYueFPU2uP78=");
+    background-color:#fff;
+    width:100%;
+
+}
+
+.package-tracker-section {
+    align-items: center;
+    justify-content:baseline;
+}
+
+.package-page-hero-text {
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 35px;
+    color: var(--siteColor1);
+}
+
+
+/* SENDER FORM STYLING */
+.sender-form-layout {
+
+}
+
+.item-label::part(label) {
+    font-size: 12px;
+    font-family: var(--font);
+}
+
+.item-label::part(input-field) {
+    font-size: 13px;
+    font-family: var(--font);
+}
+
+.package-price-field {
+    width: 90%;
+}
+.package-price-field::part(label){
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.package-price-field::part(input-field) {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    color: #de0000;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+
+.sender-header-text {
+    color: var(--siteColor1);
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    width:100%;
+    background-color: rgb(242, 247, 253);
+    padding:20px 0;
+    text-align: center;
+    border: 5px;
+}
+
+.icons {
+    width:15px;
+    margin-right:5px;
+}
+.div-inner-section {
+    width: 100%;
+    margin-bottom: -10px;
+    background-color: rgb(237, 248, 255);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.place-order-button {
+    font-size: small;
+    height:40px;
+}
+
+/* .inner-title-header {
+    color: var(--siteColor1);
+    font-family: var(--font);
+    font-weight: 600;
+} */
+
+/* PACKAGE TRACKER DIALOG BOX */
+.package-tracker-section {
+   align-content: center;
+   font-size: small;
+   width: 100%;
+}
+
+.dialog-header-title {
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 600;
+    color: #555555;
+}
+.package-tracker-dialog::part(header) {
+    background-color: rgb(238, 249, 255);
+    font-family: "Poppins";
+}
+
+.dialog-vertical-layout {
+    align-items:self-end;
+    flex-direction: row;
+    justify-content: baseline;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.search-field {
+    width: 100%;
+}
+
+.search-field::part(input-field){
+    background-color:#fff;
+    border:1px solid rgb(135, 135, 135);
+    padding:8px;
+    font-size:14px;
+}
+
+.search-field::part(label) {
+    font-size: 12px;
+}
+.search-field[focused]::part(label){
+    color: red;
+}
+
+.track-button {
+    background-color:red;
+    color:#fff;
+    font-size: 12px;
+    padding: 5px 40px;
+    height: 55px;
+}
+
+.track-button:hover {
+    background-color:rgb(161, 8, 8);
+    transition:0.3s ease-in-out;
+}
+
+.dialog-content-container {
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.item-container {
+    width:100%;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    margin:10px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(63, 211, 75);
+}
+.item-disable {
+    opacity:0.2;
+    background-color:#ddd;
+    color:#eee;
+}
+
+.item-status {
+    font-size: 14px;
+    font-family: var(--font);
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.item-container img {
+    width:20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+/* MOBILE RESPONSIVE VIEW */
+@media screen and (min-width:760px) {
+    .package-tracker-dialog {
+        width: 100%;
+    }
+}

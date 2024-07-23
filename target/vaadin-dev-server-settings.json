@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/Users/Druglord/Documents/web apps/just-delivery/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/Users/Druglord/Documents/web apps/just-delivery/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "D:/Users/Druglord/Documents/web apps/just-delivery/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\Users\\Druglord\\Documents\\web apps\\just-delivery\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\Users\\Druglord\\Documents\\web apps\\just-delivery\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/Users/Druglord/Documents/web apps/just-delivery/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/Users/Druglord/Documents/web apps/just-delivery/target/dev-bundle/config",
+  "jarResourcesFolder": "D:/Users/Druglord/Documents/web apps/just-delivery/./src/main/frontend/generated/jar-resources",
+  "themeName": "justdelivery",
+  "clientServiceWorkerSource": "D:\\Users\\Druglord\\Documents\\web apps\\just-delivery\\target\\sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}
