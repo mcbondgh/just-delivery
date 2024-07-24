@@ -146,8 +146,6 @@ public class CustomersView extends VerticalLayout {
 
 
 
-
-
     /*******************************************************************************************************************
         ACTION EVENTS IMPLEMENTATION
      *******************************************************************************************************************/
@@ -156,7 +154,7 @@ public class CustomersView extends VerticalLayout {
             //ADD TEST DATA TO GRID TO TEST ACTION BUTTON
             AtomicInteger counter = new AtomicInteger();
             List<CustomerData> data = new ArrayList<>();
-            data.add(new CustomerData(counter.incrementAndGet(), "Mcbond Prince", "048349849", "GH-84394-", "example@example.com", "active"));
+            data.add(new CustomerData(counter.incrementAndGet(), "Customer One", "048349849", "GH-84394-", "example@example.com", "active"));
             data.add(new CustomerData(counter.incrementAndGet(), "Customer Two", "0884838483", "AG-4934-43", "example.didis.com", "inactive"));
             data.add(new CustomerData(counter.incrementAndGet(), "Customer Three", "343434", "AG-49344-00", "example.com", "disable"));
             customerDataGrid.setItems(data);

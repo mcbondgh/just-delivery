@@ -1,5 +1,6 @@
 package com.app.views.homepage;
 
+import com.app.custom.CustomComponents;
 import com.app.layouts.HomeLayout;
 import com.app.views.packages.PackageTrackerView;
 import com.vaadin.flow.component.Component;
@@ -93,7 +94,7 @@ public class HomepageView extends VerticalLayout {
         sectionTitle.addClassNames("section-title", "service-section-container");
         section.setClassName("section-container");
 
-        FormLayout formLayout = new FormLayout();
+        Div formLayout = new Div();
         formLayout.addClassNames("form-layout", "services-form-layout");
 
         H5 itemTitle1 = new H5("PICK-UP AND DELIVERY");
@@ -132,8 +133,6 @@ public class HomepageView extends VerticalLayout {
         container3.setClassName("service-div");
 
         formLayout.add(container1, container2, container3);
-        customResponsiveLayout(formLayout);
-
         section.add(sectionTitle, formLayout);
         return section;
     }

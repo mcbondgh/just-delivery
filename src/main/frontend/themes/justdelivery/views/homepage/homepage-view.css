@@ -101,6 +101,12 @@
 }
 
 
+.services-form-layout {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 /* CONTACT INFORMATION SECTION */
 .contact-section-container {
     background-color: var(--siteColor1);
@@ -179,6 +185,10 @@
     }
     .delivery-text, .just-text {
         font-size: 45px;
+    }
+
+    .services-form-layout {
+        display:block;
     }
     
 }

@@ -29,6 +29,7 @@ public class CustomComponents {
                 new FormLayout.ResponsiveStep("320px", 2),
                 // Use three columns, if the layout's width exceeds 500px
                 new FormLayout.ResponsiveStep("500px", 3),
+
                 new FormLayout.ResponsiveStep("800px", 5));
     }
 
